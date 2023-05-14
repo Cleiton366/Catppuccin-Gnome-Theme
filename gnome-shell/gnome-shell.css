@@ -208,10 +208,6 @@ stage {
 
 
 #panel {
-    /*background-color: rgba(64, 58, 58, 0.4);
-    font-weight: bold;
-    height: 2.25em;
-    transition-duration: 250ms;*/
     background-color: #11111b;
     /*background-color: transparent;*/
     font-weight: bold;
@@ -221,7 +217,6 @@ stage {
     font-feature-settings: "tnum";
     transition-duration: 250ms;
     font-size: 10pt;
-    border-radius: 20px; height: 40px; margin-top: 10px; margin-right: 45px; margin-bottom: 10px; margin-left: 45px;
 }
 
 #panel.unlock-screen,
@@ -653,7 +648,7 @@ stage {
     -slider-handle-radius: 10px;
     -slider-handle-border-width: 0px;
     -slider-handle-border-color: transparent;
-    -barlevel-height: 20px;
+    -barlevel-height: 5px;
     -barlevel-border-width: 0px;
     -barlevel-background-color: rgba(255, 255, 255, 0.1);
     -barlevel-active-background-color: #b4befe;
@@ -1345,7 +1340,6 @@ stage {
     border-radius: 12px;
     margin: 10px;
     background-color: #11111b;
-    /*border: 1px solid rgba(255, 255, 255, 0.05);*/
     border: 0px solid transparent #cba6f7;
 }
 
@@ -2520,7 +2514,6 @@ StEntry StLabel.hint-text {
 
 /*OVERVIEW*/
 
-
 .controls-manager,
 .secondary-monitor-workspaces {
     spacing: 12px;
@@ -2533,8 +2526,6 @@ StEntry StLabel.hint-text {
 .overview-controls {
     padding-bottom: 32px;
 }
-
-
 
 /*WORKSPACE ANIMATION*/
 
@@ -4705,6 +4696,7 @@ StWidget.focused .app-well-app-running-dot {
     padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 16px;
+    width: 500px;
 }
 
 .quick-settings-grid {
@@ -4900,7 +4892,7 @@ StWidget.focused .app-well-app-running-dot {
     font-weight: bold;
     padding: 12px;
     transition-duration: 100ms;
-    color: #11111b;
+    color: white;
     background-color: #b4befe;
 }
 
